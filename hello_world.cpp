@@ -1,7 +1,9 @@
-#include <iostream>
-
+include <iostream>
+include <string>
 using namespace std;
-
-int main(){
-    std::cout << "Hello World!";
+int main() {
+string name;
+cout << "PLease enter name";
+cin >> name;
+cout << "Hello world from " << name;
 }
