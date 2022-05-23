@@ -3,7 +3,7 @@ include <string>
 int main() {
 std::string name;
 std::cout << "PLease enter name";
-//asking for name
+//Запрашиваем имя
 std::cin >> name;
 std::cout << "Hello world from " << name;
 }
